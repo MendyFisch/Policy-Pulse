@@ -12,6 +12,6 @@
 			<p class="idea_index_description">
 				<?php echo $text->truncate($idea['Idea']['description'], 200, array('ending' => '...', 'exact' => false, 'considerHtml' => true)); ?>
 			</p>
-		</div>
+		</div> 
 	<?php endforeach; ?>
 
