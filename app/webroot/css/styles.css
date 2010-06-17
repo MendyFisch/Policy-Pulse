@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/* Class styles for idea model */
+.idea_index_listing {
+	font-family:Arial, Helvetica, sans-serif;
+	width:75%;
+}
+.idea_index_title {
+	font-size: 20px;
+}
+.idea_index_title a {
+	color: #000;
+	text-decoration:none;
+}
+.idea_index_title a:hover {
+	text-decoration:underline;
+}
+.idea_index_user {
+	font-size: 14px;
+	color:#999;
+}
+h1.idea_index {
+	font-size:48px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+/* General styles */
+table.sort {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	border-collapse: collapse; border: 0;
+}
+table.sort td {
+	background-color:#999;
+	height:30px;
+	padding-left:10px;
+	padding-right:10px;
+	margin:0px;
+	border-collapse:collapse;
+}
+.round_left {
+	-webkit-border-top-left-radius:10px;
+	-moz-border-top-left-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	-moz-border-bottom-left-radius:10px;
+}
+.round_right {
+	-webkit-border-top-right-radius:10px;
+	-moz-border-top-right-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+	-moz-border-bottom-right-radius:10px;
+
+}
+table.sort td:hover {
+	background-color:#CCC;
+}
+	
