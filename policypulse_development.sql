@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jun 18, 2010 at 06:02 PM
+-- Generation Time: Jun 18, 2010 at 08:38 PM
 -- Server version: 5.1.36
 -- PHP Version: 5.3.0
 
@@ -40,8 +40,8 @@ CREATE TABLE IF NOT EXISTS `categories` (
 --
 
 INSERT INTO `categories` (`id`, `name`, `now_weight`, `week_weight`, `month_weight`, `year_weight`) VALUES
-(1, 'Environment', 1, 1, 1, 1),
-(2, 'Economic', 1, 1, 1, 1);
+(1, 'Environment', 1.5, 1, 1, 1),
+(2, 'Economic', 3.6, 1, 1, 1);
 
 -- --------------------------------------------------------
 
