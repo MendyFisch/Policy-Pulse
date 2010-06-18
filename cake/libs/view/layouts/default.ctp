@@ -31,7 +31,11 @@
 		echo $this->Html->css('styles');
 
 		echo $scripts_for_layout;
+		
+		echo $javascript->link('prototype');
+		echo $javascript->link('scriptaculous'); 
 	?>
+	
 </head>
 <body>
 	<div id="container">
