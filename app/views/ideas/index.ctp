@@ -1,6 +1,7 @@
 <!-- File: /app/views/ideas/index.ctp -->
 
 <h1 class='idea_index'>Imagine...</h1>
+<?php echo $html->link('Add your idea', array('controller' => 'ideas', 'action' => 'add')); ?>
 <table class='sort'>
 	<tr><td class='round_left'>Hot Right Now</td><td>All Time Best</td><td>Hot this Week</td><td>Hot this Month</td><td class='round_right'>Hot this Year</td></tr>
 </table>
