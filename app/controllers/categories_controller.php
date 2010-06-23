@@ -14,12 +14,15 @@ class CategoriesController extends AppController {
 				   );	
 	}
 	function boost($id) {
+	
+		//hellooo
 		$record = $this->Category->read('now_weight', $id);
 		$now_weight = $record['Category']['now_weight'];
 		$now_weight+=0.1;
 		$this->Category->set('now_weight', $now_weight);
 		$this->Category->save($this->data);
 		$this->render('/elements/ajaxreturn');
+		//a small change
 	}
 }
 ?>
